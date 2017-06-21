@@ -1,0 +1,97 @@
+
+nav {
+	background-color: #242424;
+	height: 100px;
+	width: 100%;
+	position: fixed;
+}
+
+ul {
+	list-style: none; /*slanja bulete*/
+	float: right;
+	margin-top: 35px;
+	margin-right: 50px;
+}
+
+li {
+	display: inline-block;
+}
+
+a {
+	border-radius: 25%;
+	background-color: #44474c;
+	color: whitesmoke;
+	padding: 10px;
+	font-size: 20px;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+h1 {
+	float: left;
+	color: whitesmoke;
+	margin-left: 50px;
+}
+
+
+.clearfix {
+	clear: both;
+}
+
+.wrap {
+	word-wrap: break-word;
+	width: 200px;
+	height: 250px;
+	padding: 10px;
+	border-radius: 5%;
+	border: 2px solid #242424;
+	position: absolute;
+	top: 230px;
+
+}
+
+.prop {
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	background-color: #242424;
+	position: absolute;
+	top: 180px;
+}
+
+#circle1 {
+	left: 175px;
+}
+
+#box1 {
+	left: 100px;
+}
+
+#circle2 {
+	left: 450px;
+	background-image: url('yellow.jpg');
+}
+
+#box2 {
+	left: 375px;
+}
+
+#circle3 {
+	left: 725px;
+	background-image: url('pink.jpg');
+}
+
+#box3 {
+	left: 650px;	
+}
+
+#circle4 {
+	left: 1000px;
+	background-image: url('blue.jpg');
+}
+
+#box4 {
+	left: 926px;
+}
